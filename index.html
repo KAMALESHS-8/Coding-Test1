@@ -1,0 +1,37 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" ></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" ></script>
+        <link rel="icon" type="image/x-icon" href="https://formmeta.github.io/generateform/formMeta_logo_website.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <script src="https://formmeta.github.io/generateform/generateform.js"></script>
+        <link rel="stylesheet" href="https://formmeta.github.io/generateform/formMeta_style.css">     
+        <script src="https://formmeta.github.io/generateform/tab_monitor.js"></script>
+        <title>CODING CLUB OF EEE</title>
+
+        </head>
+        <body onload="checkCookie()">
+            <center>
+                <h1>CODING CLUB OF EEE</h1>
+            </center>
+            <div id="myDiv" class="enabled"></div>
+            <div class="iframePopup">
+            <h2 style="color: red;">&#10071; Click ok to continue &#10071;</h2>
+            <iframe frameborder="0" name="formview"></iframe>
+            <a onclick='setCookie("isCompleted", "completed", 30);window.open("https://formmeta.github.io/generateform/thankyou.html","_self");'>oK</a>
+        </div>
+            <script>
+                const question_array = ["https://docs.google.com/forms/u/0/d/e/1FAIpQLSeufyzlgIXmaojTo-xXlkPpSSBQGwTTeQWtJrH3hQzqOCzU8Q/formResponse",["text","NAME"],["text","ROLL NO"],["radio","SECTION",["EEE-A","EEE-B"]],["textarea","Write a program for a given a mobile numeric keypad sequence, convert it into its equivalent sentence in the form of a string.<div><br>First line of the input consist of a integer n.<br></div>"],["textarea","Print the odd prime numbers in the given format. Given an array of integers, the task is to sort all the prime numbers from the given array in descending order.<div><br>First line consist of single integer representing the number of array elements. Second line on input representing the array elements with space.</div><div><br>Print the odd prime numbers in the&nbsp;given&nbsp;format.<br></div>"]];
+                const name_array = ["entry.374250947","entry.111106851","entry.1750729714","entry.2129270895","entry.402602135"];
+                generateForm({inputArray: question_array,nameArray: name_array ,emailDomain: 'kongu.edu', limitResponse: true,shuffle : [true,5]});  
+            </script>
+            <script>const Rtabc = document.createElement('input');Rtabc.type = 'hidden';Rtabc.name = 'entry.327420331';Rtabc.value = 0;Rtabc.id = 'R_tab';const form = document.querySelector('form');form.append(Rtabc);</script>
+        </body>
+        </html>
+      
